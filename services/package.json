@@ -5,6 +5,7 @@
   "scripts": {},
   "dependencies": {
     "aws-sdk": "^2.1237.0",
+    "stripe": "^10.15.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
