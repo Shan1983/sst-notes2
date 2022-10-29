@@ -6,6 +6,7 @@ import NewNote from "./containers/NewNote";
 import NotFound from "./containers/NotFound";
 import SignUp from "./containers/SignUp";
 import Notes from "./containers/Notes";
+import Settings from "./containers/Settings";
 
 export default function Links() {
   return (
@@ -15,6 +16,7 @@ export default function Links() {
       <Route exact path="/signup" element={<SignUp />} />
       <Route exact path="/notes/new" element={<NewNote />} />
       <Route exact path="/notes/:id" element={<Notes />} />
+      <Route exact path="/settings" element={<Settings />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
