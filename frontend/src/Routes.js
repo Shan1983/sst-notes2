@@ -13,15 +13,7 @@ import AuthenticatedRoute from "./components/AuthenticatedRoute";
 export default function Links() {
   return (
     <Routes>
-      <Route
-        exact
-        path="/"
-        element={
-          <UnauthenticatedRoute>
-            <Home />
-          </UnauthenticatedRoute>
-        }
-      />
+      <Route exact path="/" element={<Home />} />
       <Route
         exact
         path="/login"
